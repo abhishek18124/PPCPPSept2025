@@ -61,6 +61,9 @@ int f(int n, const vector<int>& p) {
 
 }
 
+// time : O(n^2)
+// space: O(n) due to dp[]
+
 int fBottomUp(int n, const vector<int>& p) {
 
 	vector<int> dp(n + 1);
